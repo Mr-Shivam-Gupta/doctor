@@ -1,16 +1,28 @@
 
-  <!-- Footer Start here -->
+<section class="subscribe">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-xs-12">
+					<h3>Join Our Newsletter</h3>
+				</div>
+				<div class="col-lg-7 col-xs-12">
+					<form action="/">
+						<input type="text" placeholder="Enter your e-mail here">
+						<input type="submit" value="Subscribe Now">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
   <footer>
     <div class="footer-top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="col-lg-5 col-sm-6 col-xs-12">
             <div class="footer-item">
               <div class="title"><img src="<?php echo base_url('include/');?>images/logo.png" alt="logo" class="img-responsive"></div>
-              <div class="footer-about">
-                <p>Distily enable team driven services through extensive is a relatonships platforms with interactive
-                  content. Enthusiastically scale effective.</p>
-               
+              <div class="footer-about ">
+                <p style="text-align: justify;"> Little Stars Newborn & Children's Clinic, where we specialize in providing exceptional care for your little ones. Our dedicated team of pediatric experts is committed to nurturing the health and well-being of your precious children from infancy through their formative years. With a warm and inviting environment, we aim to create a safe haven where your little stars can shine brightly.</p>
               </div>
             </div>
           </div>
@@ -20,36 +32,37 @@
               <ul class="footer-post m-0 p-0">
                 <li class="mb-1 pb-1">
                   <div class="content">
-                    <a href="">
+                    <a href="<?php echo base_url('');?>">
                     <span>Home</span>
                     </a>
                   </div>
                 </li>
                 <li class="mb-1 pb-1">
                   <div class="content">
-                    <a href="">
+                    <a href="<?php echo base_url('about-us');?>">
                     <span>About</span>
+                    </a>
+                  </div>
+                </li>
+                <li class="mb-1 pb-1">
+                  <div class="content">
+                    <a href="<?php echo base_url('dr-pawan-jain');?>">
+                    <span>Dr. Pawan Jain</span>
                     </a>
                   </div>
                 </li>
                 
                 <li class="mb-1 pb-1">
                   <div class="content">
-                    <a href="">
-                    <span>Social Media</span>
+                    <a href="<?php echo base_url('gallery');?>">
+                    <span>Gallery</span>
                     </a>
                   </div>
                 </li>
+      
                 <li class="mb-1 pb-1">
                   <div class="content">
-                    <a href="">
-                    <span>Video</span>
-                    </a>
-                  </div>
-                </li>
-                <li class="mb-1 pb-1">
-                  <div class="content">
-                    <a href="<?php echo base_url('contact');?>">
+                    <a href="<?php echo base_url('contact-us');?>">
                     <span>Contact</span>
                     </a>    
                   </div>
@@ -57,7 +70,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6 col-xs-12">
+          <!-- <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="footer-item">
               <h4 class="title">Impotent links</h4>
               <ul class="twitter-post">
@@ -83,14 +96,14 @@
                     </li>
               </ul>
             </div>
-          </div>
-          <div class="col-lg-3 col-sm-6 col-xs-12">
+          </div> -->
+          <div class="col-lg-4 col-sm-6 col-xs-12">
             <div class="footer-item">
               <h4 class="title">Contact</h4>
               <div class="footer-about">
                   <ul>
-                      <li><span><i class="fa fa-home" aria-hidden="true"></i></span> New Chokoya Road, USA.</li>
-                      <li><span><i class="fa fa-phone" aria-hidden="true"></i></span> +8801 923 970 212, 0125897</li>
+                      <li><span><i class="fa fa-home" aria-hidden="true"></i></span> opposite Hardevlal, Postal Colony, Tikrapara, Raipur,  Chhattisgarh 492001</li>
+                      <li><span><i class="fa fa-phone" aria-hidden="true"></i></span> 078060 61887</li>
                       <li><span><i class="fa fa-envelope-o" aria-hidden="true"></i></span> Contact@admin LabArtisan</li>
                       <li><span><i class="fa fa-globe" aria-hidden="true"></i></span> Email@admin LabArtisan</li>
                     </ul>

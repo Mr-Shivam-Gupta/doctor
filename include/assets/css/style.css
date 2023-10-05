@@ -1639,7 +1639,7 @@ header .main-menu .menu_cart .check_out {
 }
 
 .page-header .overlay {
-    padding: 105px 0px;
+    padding: 40px 0px;
     background-color: rgba(7, 143, 203, .8);
     text-align: center;
 }
@@ -2476,9 +2476,9 @@ header .main-menu .menu_cart .check_out {
 }
 
 .teacher-details .teacher-skills .skill-item {
-    display: inline-block;
+    /* display: inline-block;
     margin-right: 44px;
-    text-align: center;
+    text-align: center; */
 }
 
 .teacher-details .teacher-skills .skill-item:last-child {
@@ -5767,8 +5767,8 @@ ul#countdown {
 /*  21  - Footer
 ----------------------------------------------*/
 footer .footer-top {
-    padding-top: 100px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-image: url(../../images/background/footer-bg.jpg);
     background-size: cover;
     background-position: center;
